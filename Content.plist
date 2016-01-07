@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>rankedHelpText</key>
+	<string>This is your ranking in the PredictorPro world league. This is based simply on the points you have scored since the start of the season.</string>
+	<key>ratingHelpText</key>
+	<string>Your rating is calculated based on your performance and your general activity within the game.</string>
+	<key>ppgHelpText</key>
+	<string>This is the average points you score per prediction.</string>
+	<key>gpgHelpText</key>
+	<string>This is the number of goals scored in games that you correctly predicted the final score averaged over all your predictions for this season.</string>
+	<key>resultsHelpText</key>
+	<string>The total number of results you have correctly predicted this season</string>
+	<key>scoresHelpText</key>
+	<string>The total number of games for which you have predicted exactly the right score this season.</string>
+	<key>goalsHelpText</key>
+	<string>The total number of goals scored in games that you correctly predicted the final score this season</string>
+	<key>noNetConnection</key>
+	<string>Cannot connect to the PredictorPro server. Check that you&apos;re connected to the internet &amp; try again.</string>
+	<key>inviteSuccessfulMessage</key>
+	<string>Your invite has been sent</string>
+	<key>helpEmailMessage</key>
+	<string>Shoot us an email iphone@predictorpro.com we&apos;ll see what we can do.</string>
+	<key>banterLengthMessage</key>
+	<string>Your banter is too long (%i characters). The limit is 75!</string>
+	<key>inviteConfirmationMessage</key>
+	<string>Are you sure you want to send an invite to %@?</string>
+	<key>helpEmailRecipient</key>
+	<string>iphone@predictorpro.com</string>
+	<key>editLeagueValidationMessage</key>
+	<string>All form fields are required.</string>
+</dict>
+</plist>

@@ -1,0 +1,19 @@
+//
+// Prefix header for all source files of the 'PredictorPro' target in the 'PredictorPro' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+	#import "JSON.h"
+	#import "SUAPIInterface.h"
+	#import "SUPrefInterface.h"
+	#import "UIImage+UniversalApp.h"
+	#import "UIImageView+Cached.h"
+	// util macro to convert hex to rgb
+	#define UIColorFromRGB(rgbValue) [UIColor \
+	colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
+	green:((float)((rgbValue & 0xFF00) >> 8))/255.0 \
+	blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+#endif
